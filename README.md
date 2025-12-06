@@ -1,16 +1,52 @@
-# agzakhaneti
+# 💊 Agzakhaneti (أجزخانتي)
 
-A new Flutter project.
+A comprehensive, localized Flutter application for medication management, schedule tracking, and health monitoring, built with **Clean Architecture** and **Modern UI**.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+* **💊 Medication Management:** Add, edit, and track medication stock with smart alerts.
+* **📅 Schedule System:** Set recurrent schedules (e.g., Breakfast, Dinner) and link multiple medications to them.
+* **📊 Health Log:** Track Blood Pressure and Blood Sugar levels with interactive charts and reports.
+* **🔔 Smart Notifications:** Get reminded for doses and low stock alerts.
+* **🌍 Localization:** Fully supported Arabic & English (RTL/LTR).
+* **🌑 Dark/Light Mode:** Adaptive UI that respects system settings.
+* **🎓 Interactive Tutorials:** In-app showcase tour for new users.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack & Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **State Management:** `flutter_bloc` (Cubit)
+* **Architecture:** Clean Architecture (Data, Domain, Presentation) with Repository Pattern.
+* **DI:** `get_it` for dependency injection.
+* **Local Storage:** `sqflite` for robust data persistence.
+* **UI/UX:**
+    * Material 3 Design.
+    * `fl_chart` for health analytics.
+    * `showcaseview` for user onboarding.
+    * `Youtubeer_flutter` for video tutorials.
+* **Date & Time:** `intl` package.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Home Screen | Schedule | Health Charts | Dark Mode |
+|:---:|:---:|:---:|:---:|
+| ![Home](path/to/image1.png) | ![Schedule](path/to/image2.png) | ![Charts](path/to/image3.png) | ![Dark](path/to/image4.png) |
+
+*(Note: Replace `path/to/image` with actual screenshots later)*
+
+## 🚀 How to Run
+
+1.  Clone the repo:
+    ```bash
+    git clone [https://github.com/hazemm900/agzakhaneti.git](https://github.com/hazemm900/agzakhaneti.git)
+    ```
+2.  Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+3.  Run the app:
+    ```bash
+    flutter run
+    ```
+
+---
+Developed with ❤️ by **Hazem Hefny** using Flutter.
