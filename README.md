@@ -27,11 +27,15 @@ A comprehensive, localized Flutter application for medication management, schedu
 
 ## 📸 Screenshots
 
-| Home Screen | Schedule | Health Charts | Dark Mode |
-|:---:|:---:|:---:|:---:|
-| ![Home](path/to/image1.png) | ![Schedule](path/to/image2.png) | ![Charts](path/to/image3.png) | ![Dark](path/to/image4.png) |
+### 🏠 Home & Schedule (Light vs Dark)
+| Home (Light) | Home (Dark) | Schedule |
+|:---:|:---:|:---:|
+| <img src="screenshots/home.jpg" width="250"/> | <img src="screenshots/home_dark.jpg" width="250"/> | <img src="screenshots/schedule.jpg" width="250"/> |
 
-*(Note: Replace `path/to/image` with actual screenshots later)*
+### 📊 Health Analytics & Reports
+| Health Log List | Charts (Light) | Charts (Dark) |
+|:---:|:---:|:---:|
+| <img src="screenshots/helth_log.jpg" width="250"/> | <img src="screenshots/charts.jpg" width="250"/> | <img src="screenshots/charts_dark.jpg" width="250"/> |
 
 ## 🚀 How to Run
 
